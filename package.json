@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio_1.nodesjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "picocolors": "^1.0.0"
+  }
+}

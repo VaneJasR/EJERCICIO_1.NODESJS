@@ -1,11 +1,11 @@
-import colors from 'picocolors'
-import inquerer from 'inquire'
+import colors from 'picocolors' 
+import inquerer from 'inquirer'
 
 
 async function main(){
     console.log(colors.white("Benvenido a mi super app"))
     
-    // su nombre al usuario 
+
     const { name } = await inquerer.prompt({
         type: "input",
         name: "name",

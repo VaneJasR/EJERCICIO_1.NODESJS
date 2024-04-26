@@ -1,5 +1,5 @@
 import colors from 'picocolors' 
-import inquerer from 'inquirer'
+import inquerer from 'inquire'
 
 
 async function main(){

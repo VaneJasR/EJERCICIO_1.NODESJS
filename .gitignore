@@ -1,2 +1,4 @@
-/// agregar todas las carpetas que no quiero que se suban al github 
+//// poner los docuemntos o carpetas que no se van a subir al repo 
+
 node_modules
+01.PASOS.txt

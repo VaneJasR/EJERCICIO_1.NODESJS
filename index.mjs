@@ -4,15 +4,17 @@ import inquerer from 'inquirer'
 async function main(){
     console.log(colors.green("Que team es el mejor, team perro🐶 o team gato🐱"))
 
-    const { pet } = await inquerer.prompt({
+    const { name } = await inquerer.prompt({
         type:"input",
-        pet:"pet",
+        name:"name",
         message:"Que team prefieres"
     })
 
-    if (pet == "Perro"){
+    if (name == "Perro"){
         console.log(colors.yellow("Perfecto eres Team Perro😃"))
     } else{
         console.log(colors.red("Es mejor Team Perro🐶"))
     }
 }
+
+main()

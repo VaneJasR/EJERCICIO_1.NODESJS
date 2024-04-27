@@ -2,8 +2,7 @@
   "name": "ejercicio_1.nodesjs",
   "version": "1.0.0",
   "description": "",
-  "main": "miApp1.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.20",
-    "nodemon": "^3.1.0",
     "picocolors": "^1.0.0"
   }
 }
